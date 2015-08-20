@@ -1,0 +1,29 @@
+{
+  "name": "vision-as-promised",
+  "version": "0.0.0",
+  "description": "Hapi plugin to support promises as the context passed to reply.view",
+  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
+  "contributors": [],
+  "repository": "iceddev/vision-as-promised",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "lab -cvL"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "hapi",
+    "plugin",
+    "promise",
+    "views",
+    "vision"
+  ]
+}
