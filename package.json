@@ -1,6 +1,6 @@
 {
   "name": "vision-as-promised",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Hapi plugin to support promises as the context passed to reply.view",
   "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
   "contributors": [],
