@@ -2,7 +2,7 @@
 
 var isPromiseLike = require('is-promise');
 
-function onPreResponse(request, reply){
+function onPostHandler(request, reply){
   var response = request.response;
   var variety = response.variety;
   var source = response.source;
@@ -29,7 +29,7 @@ function onPreResponse(request, reply){
 
 function visionAsPromised(server, opts, done){
 
-  server.ext('onPreResponse', onPreResponse);
+  server.ext('onPostHandler', onPostHandler);
 
   done();
 }
